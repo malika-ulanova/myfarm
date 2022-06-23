@@ -89,10 +89,6 @@ button {
 #header .header nav ul li a:hover:after {
   transform: translateX(-50%) scaleX(1);
 }
-#header .header nav ul li img {
-  width: 60px;
-  height: 40px;
-}
 
 #slider1 {
   background: url("../img/bg.jpg") no-repeat center/cover;
@@ -358,7 +354,6 @@ button {
   color: #424348;
   font-size: 14px;
   text-align: center;
-  width: 99px;
 }
 #milk .milk_product .info-price .input-number_in, #milk .meat_product .info-price .input-number_in, #meat .milk_product .info-price .input-number_in, #meat .meat_product .info-price .input-number_in, #vege .milk_product .info-price .input-number_in, #vege .meat_product .info-price .input-number_in, #oi .milk_product .info-price .input-number_in, #oi .meat_product .info-price .input-number_in {
   background: #f1ea9d;
@@ -367,15 +362,6 @@ button {
   border: none;
   padding: 8px;
   text-align: center;
-}
-#milk .milk_product .info-price .input-number_min, #milk .milk_product .info-price .input-number_pl, #milk .meat_product .info-price .input-number_min, #milk .meat_product .info-price .input-number_pl, #meat .milk_product .info-price .input-number_min, #meat .milk_product .info-price .input-number_pl, #meat .meat_product .info-price .input-number_min, #meat .meat_product .info-price .input-number_pl, #vege .milk_product .info-price .input-number_min, #vege .milk_product .info-price .input-number_pl, #vege .meat_product .info-price .input-number_min, #vege .meat_product .info-price .input-number_pl, #oi .milk_product .info-price .input-number_min, #oi .milk_product .info-price .input-number_pl, #oi .meat_product .info-price .input-number_min, #oi .meat_product .info-price .input-number_pl {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  user-select: none;
 }
 #milk .milk_product .add-to-cart, #milk .meat_product .add-to-cart, #meat .milk_product .add-to-cart, #meat .meat_product .add-to-cart, #vege .milk_product .add-to-cart, #vege .meat_product .add-to-cart, #oi .milk_product .add-to-cart, #oi .meat_product .add-to-cart {
   border: none;
@@ -386,6 +372,9 @@ button {
   justify-content: center;
   background-color: #f1ea9d;
   border-radius: 10px;
+}
+#milk .milk_product .product__quantity, #milk .meat_product .product__quantity, #meat .milk_product .product__quantity, #meat .meat_product .product__quantity, #vege .milk_product .product__quantity, #vege .meat_product .product__quantity, #oi .milk_product .product__quantity, #oi .meat_product .product__quantity {
+  width: 99px;
 }
 
 .line {
@@ -435,6 +424,17 @@ button {
   color: #8F8F8F;
   opacity: 0.4;
   padding-bottom: 40px;
+}
+
+.smart-basket__min {
+  position: absolute;
+  color: black;
+  width: 73px;
+  height: 70px;
+  margin-top: -70px;
+  margin-left: -10px;
+  background-color: rgba(240, 248, 255, 0);
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.css.map */

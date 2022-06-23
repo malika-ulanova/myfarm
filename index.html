@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet"  href="css/all.min.css">
-    <!-- CSS only -->
+
 
 </head>
 <body>
@@ -30,8 +30,19 @@
                     <li><a href="#about">О нас</a></li>
                     <li><a href="#product">Продукция</a></li>
                     <li><a href="#milk">Цены</a></li>
-                    <li> <a href="#"><img src="./img/korz.png" alt=""></a></li>
+
+
+
+                    <li> <a class="buscet"  data-w-id="e02848ac-c68e-e51e-8e778b9c5320" href="#">
+                        <ion-icon style="width: 30px; height: 30px" name="cart-outline"></ion-icon>
+
+                        <div class="shop-nombers">
+                        </div>
+                    </a></li>
                 </ul>
+
+
+
 
             </nav>
 
@@ -120,7 +131,8 @@
                         <img src="./img/milk1.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Молоко</h3>
+                        <h3>Молоко 1 л  </h3>
+
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -130,12 +142,19 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">66сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ л</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+<!--                            <div class="input-number">-->
+<!--                                <div class="input-number_min">-</div>-->
+<!--                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">-->
+<!--                                <div class="input-number_pl">+ л</div>-->
+<!--                            </div>-->
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0101"
+                                    data-sb-product-name="Молоко"
+                                    data-sb-product-price="66"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/milk1.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -146,7 +165,7 @@
                         <img src="./img/ayran.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Кефир</h3>
+                        <h3>Кефир 1л</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -156,12 +175,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">94сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ л</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0102"
+                                    data-sb-product-name="Кефир"
+                                    data-sb-product-price="94"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/ayran.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -172,7 +193,7 @@
                         <img src="./img/syr.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Сыр</h3>
+                        <h3>Сыр 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -182,12 +203,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">366сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0103"
+                                    data-sb-product-name="Сыр"
+                                    data-sb-product-price="366"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/syr.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -198,7 +221,7 @@
                         <img src="./img/brynza.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Брынза</h3>
+                        <h3>Брынза 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -208,12 +231,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">400сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0104"
+                                    data-sb-product-name="Брынза"
+                                    data-sb-product-price="366"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/brynza.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -224,7 +249,7 @@
                         <img src="./img/yogurt.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Йогурт</h3>
+                        <h3>Йогурт 500мл</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -233,13 +258,15 @@
                             <li><ion-icon name="star-half-outline"></ion-icon></li>
                         </ul>
                         <div class="info-price">
-                            <span class="price">70сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ л</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <span class="price">70сом </span>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0105"
+                                    data-sb-product-name="Йогурт"
+                                    data-sb-product-price="70"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/yogurt.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -260,12 +287,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">80сом</span>
-                            <div class="input-number">
-                            <div class="input-number_min">-</div>
-                            <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                            <div class="input-number_pl">+ шт</div>
-                        </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0106"
+                                    data-sb-product-name="Сливки 250мл"
+                                    data-sb-product-price="80"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/sliv.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -286,12 +315,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">115сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0107"
+                                    data-sb-product-name="Творог 250гр"
+                                    data-sb-product-price="115"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/tvor.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -311,13 +342,15 @@
                             <li><ion-icon name="star-half-outline"></ion-icon></li>
                         </ul>
                         <div class="info-price">
-                            <span class="price">45сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <span class="price">95сом</span>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0108"
+                                    data-sb-product-name="Сметана 250млр"
+                                    data-sb-product-price="95"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/tvor.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -327,9 +360,7 @@
 
     </div>
 </section>
-<!--<div class="container">-->
-    <div class="line"></div>
-<!--</div>-->
+<div class="line"></div>
 <section id="meat">
     <div class="container mt-5" >
         <h2>Мясо</h2>
@@ -340,7 +371,7 @@
                         <img src="./img/gov.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Говядина</h3>
+                        <h3>Говядина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -350,12 +381,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">450сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0201"
+                                    data-sb-product-name="Говядина 1кг"
+                                    data-sb-product-price="450"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/gov.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -366,7 +399,7 @@
                         <img src="./img/baran.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Баранина</h3>
+                        <h3>Баранина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -376,12 +409,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">630сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0202"
+                                    data-sb-product-name="Баранина 1кг"
+                                    data-sb-product-price="630"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/baran.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -392,7 +427,7 @@
                         <img src="./img/conina.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Конина</h3>
+                        <h3>Конина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -402,12 +437,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">366сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0203"
+                                    data-sb-product-name="Конина 1кг"
+                                    data-sb-product-price="366"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/conina.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -418,7 +455,7 @@
                         <img src="./img/svinina-02.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Свинина</h3>
+                        <h3>Свинина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -428,12 +465,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">280сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0204"
+                                    data-sb-product-name="Свинина 1кг"
+                                    data-sb-product-price="280"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/svinina-02.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -444,7 +483,7 @@
                         <img src="./img/crol.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Крольчатина</h3>
+                        <h3>Крольчатина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -454,12 +493,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">450сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0205"
+                                    data-sb-product-name="Крольчатина 1кг"
+                                    data-sb-product-price="450"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/crol.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -470,7 +511,7 @@
                         <img src="./img/curat.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Курятина</h3>
+                        <h3>Курятина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -480,12 +521,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">450сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                             <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0206"
+                                    data-sb-product-name="Курятина 1кг"
+                                    data-sb-product-price="450"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/curat.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -496,7 +539,7 @@
                         <img src="./img/gus.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Гусятина</h3>
+                        <h3>Гусятина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -506,12 +549,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">450сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0207"
+                                    data-sb-product-name="Гусятина 1кг"
+                                    data-sb-product-price="450"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/gus.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -522,7 +567,7 @@
                         <img src="./img/ut.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Утятина</h3>
+                        <h3>Утятина 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -532,12 +577,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">460сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0208"
+                                    data-sb-product-name="Утятина 1кг"
+                                    data-sb-product-price="460"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/ut.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -560,7 +607,7 @@
                         <img src="./img/cart.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Картошка </h3>
+                        <h3>Картошка 1кг </h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -570,12 +617,15 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">40сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+
+                                <div class="product__quantity"></div>
+                                <button class="add-to-cart"
+                                        data-sb-id-or-vendor-code="0301"
+                                        data-sb-product-name="Картошка 1кг"
+                                        data-sb-product-price="40"
+                                        data-sb-product-quantity="1"
+                                        data-sb-product-img="http://localhost:63342/diplom/img/cart.jpg"><ion-icon name="cart-outline"></ion-icon>
+                                </button>
                         </div>
                     </div>
                 </div>
@@ -586,7 +636,7 @@
                         <img src="./img/tyc.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Тыква </h3>
+                        <h3>Тыква 1кг </h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -596,12 +646,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">30сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0302"
+                                    data-sb-product-name="Тыква 1кг"
+                                    data-sb-product-price="30"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/tyc.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -612,7 +664,7 @@
                         <img src="./img/luk.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Лук репчатый </h3>
+                        <h3>Лук репчатый 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -622,12 +674,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">36сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0303"
+                                    data-sb-product-name="Лук репчатый 1кг"
+                                    data-sb-product-price="36"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/luk.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -638,7 +692,7 @@
                         <img src="./img/bac.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Баклажан</h3>
+                        <h3>Баклажан 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -648,12 +702,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">115сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0303"
+                                    data-sb-product-name="Баклажан 1кг"
+                                    data-sb-product-price="115"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/bac.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -664,7 +720,7 @@
                         <img src="./img/cap.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Капуста</h3>
+                        <h3>Капуста 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -674,12 +730,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">45сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0305"
+                                    data-sb-product-name="Капуста 1кг"
+                                    data-sb-product-price="45"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/cap.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -690,7 +748,7 @@
                         <img src="./img/mor.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Морковь</h3>
+                        <h3>Морковь 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -700,12 +758,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">41сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0306"
+                                    data-sb-product-name="Морковь 1кг"
+                                    data-sb-product-price="41"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/mor.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -716,7 +776,7 @@
                         <img src="./img/og.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Огурец</h3>
+                        <h3>Огурец 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -726,12 +786,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">118сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0307"
+                                    data-sb-product-name="Огурец 1кг"
+                                    data-sb-product-price="118"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/og.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -742,7 +804,7 @@
                         <img src="./img/sv.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Свекла</h3>
+                        <h3>Свекла 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -752,12 +814,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">90сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0308"
+                                    data-sb-product-name="Свекла 1кг"
+                                    data-sb-product-price="90"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/sv.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -768,7 +832,7 @@
                         <img src="./img/ab.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Абрикос</h3>
+                        <h3>Абрикос 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -778,12 +842,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">50сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0309"
+                                    data-sb-product-name="Абрикос 1кг"
+                                    data-sb-product-price="50"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/ab.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -794,7 +860,7 @@
                         <img src="./img/gr.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Гранат</h3>
+                        <h3>Гранат 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -804,12 +870,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">150сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0310"
+                                    data-sb-product-name="Гранат 1кг"
+                                    data-sb-product-price="150"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/gr.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -820,7 +888,7 @@
                         <img src="./img/gru.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Груша</h3>
+                        <h3>Груша 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -830,12 +898,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">60сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0311"
+                                    data-sb-product-name="Груша 1кг"
+                                    data-sb-product-price="60"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/gru.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -846,7 +916,7 @@
                         <img src="./img/li.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Лимон</h3>
+                        <h3>Лимон 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -856,12 +926,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">560сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0312"
+                                    data-sb-product-name="Лимон 1кг"
+                                    data-sb-product-price="560"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/li.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -872,7 +944,7 @@
                         <img src="./img/per.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Персик</h3>
+                        <h3>Персик 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -882,12 +954,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">160сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0313"
+                                    data-sb-product-name="Персик 1кг"
+                                    data-sb-product-price="160"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/per.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -898,7 +972,7 @@
                         <img src="./img/sli.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Слива</h3>
+                        <h3>Слива 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -908,12 +982,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">330сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0314"
+                                    data-sb-product-name="Слива 1кг"
+                                    data-sb-product-price="330"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/sli.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -924,7 +1000,7 @@
                         <img src="./img/man.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Мандарин</h3>
+                        <h3>Мандарин 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -934,12 +1010,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">220сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0315"
+                                    data-sb-product-name="Мандарин 1кг"
+                                    data-sb-product-price="220"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/man.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -950,7 +1028,7 @@
                         <img src="./img/ban.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Банан</h3>
+                        <h3>Банан 1кг</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -960,12 +1038,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">120сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ кг</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0316"
+                                    data-sb-product-name="Банан 1кг"
+                                    data-sb-product-price="120"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/man.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -988,7 +1068,7 @@
                         <img src="./img/ega.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Куриные яйца </h3>
+                        <h3>Куриные яйца 1шт </h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -998,12 +1078,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">10сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0401"
+                                    data-sb-product-name="Куриные яйца 1шт"
+                                    data-sb-product-price="10"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/ega.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -1014,7 +1096,7 @@
                         <img src="./img/utq.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Утиные яйца </h3>
+                        <h3>Утиные яйца 1шт </h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -1024,12 +1106,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">25сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0402"
+                                    data-sb-product-name="Утиные яйца 1шт"
+                                    data-sb-product-price="25"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/utq.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -1040,7 +1124,7 @@
                         <img src="./img/gusq.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Гусиные яйца</h3>
+                        <h3>Гусиные яйца 1шт</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -1050,12 +1134,14 @@
                         </ul>
                         <div class="info-price">
                             <span class="price">80сом</span>
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                            <button class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0403"
+                                    data-sb-product-name="Гусиные яйца 1шт"
+                                    data-sb-product-price="80"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/gusq.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -1066,7 +1152,7 @@
                         <img src="./img/in.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h3>Индюшиные яйцо</h3>
+                        <h3>Индюшиные яйцо 1шт</h3>
                         <ul class="rating">
                             <li><ion-icon name="star-outline"></ion-icon></li>
                             <li><ion-icon name="star-outline"></ion-icon></li>
@@ -1077,19 +1163,21 @@
                         <div class="info-price">
                             <span class="price">150сом</span>
 <!--                            <div class="pp">-->
-                            <div class="input-number">
-                                <div class="input-number_min">-</div>
-                                <input type="text" pattern="^[0-9]+$" value="1" class="input-number_in">
-                                <div class="input-number_pl">+ шт</div>
-                            </div>
-                                <button  class="add-to-cart"><ion-icon name="cart-outline"></ion-icon></button>
+                            <div class="product__quantity"></div>
+                            <button class="add-to-cart"
+                                    data-sb-id-or-vendor-code="0404"
+                                    data-sb-product-name="Индюшиные яйцо 1шт"
+                                    data-sb-product-price="150"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="http://localhost:63342/diplom/img/in.jpg"><ion-icon name="cart-outline"></ion-icon>
+                            </button>
 <!--                            </div>-->
 
                         </div>
                     </div>
                 </div>
             </div>
-           
+
 
 
         </div>
@@ -1136,6 +1224,13 @@
         <div class="cop"><h6>Copyright © 2022 Myfram.kg. Все права защищены. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</h6></div>
     </div>
 </footer>
+
+
+
+
+
+
+
 <script src="js/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/js.js"></script>
@@ -1143,6 +1238,33 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+<div class="smart-basket__wrapper"></div>
+<script src="smartbasket/js/smartbasket.min.js"></script>
+<script>
+    $(function(){
+        $('.smart-basket__wrapper').smbasket({
+            productElement: 'milk_product',
+            buttonAddToBasket: 'add-to-cart',
+            productPrice: 'product__price-number',
+            productSize: 'product__size-element',
 
+            productQuantityWrapper: 'product__quantity',
+            smartBasketMinArea: 'buscet',
+            countryCode: '+996',
+            smartBasketCurrency: "сом",
+            smartBasketMinIconPath: 'smartbasket/img/shopping-basket-wight.svg',
+
+            agreement:{
+                isRequired: true,
+                isChecked: true,
+                isLink: 'https://arstrabger.ru/privacy.html'
+
+            },
+            nameIsRequired: false,
+
+        });
+    });
+</script>
 </body>
 </html>
